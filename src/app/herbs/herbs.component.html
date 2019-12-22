@@ -1,8 +1,23 @@
-<div class="jumbotron">
-  <h1 class="display-4">Home Component!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
-    content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+<div class="card" style="width: 600px;margin: 0 auto;float: none;margin-bottom: 10px;">
+  <div class="card-body">
+    <h5 class="card-title">Herbs in Our Hospital</h5>
+<table class="table table-striped w-auto">
+  <thead>
+    <tr>
+      <th scope="col">Sinahala Name</th>
+      <th scope="col">Type</th>
+      <th scope="col">English Name</th>
+      <th scope="col">Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let obj of data;let j=index">
+      <td>{{obj.name_sinhala}}</td>
+      <td>{{obj.type_sinhala}}</td>
+      <td>{{obj.name_english}}</td>
+      <td>{{obj.type_english}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </div>
