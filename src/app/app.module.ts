@@ -14,6 +14,8 @@ import { VisionComponent } from './vision/vision.component';
 import { MissionComponent } from './mission/mission.component';
 import { HerbsComponent } from './herbs/herbs.component';
 import { ServicesComponent } from './services/services.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -43,6 +45,7 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    HttpClientModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
