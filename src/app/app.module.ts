@@ -15,6 +15,7 @@ import { MissionComponent } from './mission/mission.component';
 import { HerbsComponent } from './herbs/herbs.component';
 import { ServicesComponent } from './services/services.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 const appRoutes: Routes = [
@@ -46,6 +47,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
+    NgbModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
