@@ -1,0 +1,17 @@
+.icon {
+    display: inline-block;
+    position: relative;
+    border: none;
+    outline: none;
+    width: auto;
+    padding-right: 30px;
+    vertical-align: middle;
+  }
+  
+  .flaticon-phone-call-1 {
+    font-weight:bold;
+    background-image: url("https://i.pinimg.com/originals/b5/d7/19/b5d7198734ee5174b581630628ecfdd6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+  }
