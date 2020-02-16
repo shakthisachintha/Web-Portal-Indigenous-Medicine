@@ -35,3 +35,12 @@
     text-align: center;
 
   } 
+
+  div.ftr{
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px 20px 20px 10px;
+    font-size: 80%;
+   
+  }
