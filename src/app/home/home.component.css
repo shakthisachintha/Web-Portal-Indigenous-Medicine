@@ -15,3 +15,23 @@
     background-size: contain;
     background-position: center right;
   }
+
+  p.title {
+     
+    padding: 35px 20px 35px 20px;
+    font-family: "Neoclassical";
+    font-size: 250%;
+    font-stretch: expanded;
+    color: lightseagreen;
+  }
+  
+  p.para {
+    
+    margin: 35px;
+    font-size: 120%;
+  }
+
+  div.section-welcome {
+    text-align: center;
+
+  } 
