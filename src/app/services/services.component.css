@@ -12,7 +12,8 @@ div.marge{
   .column {
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: 10px;
+    column-gap: 40px;
   }
   
   /* Clearfix (clear floats) */
@@ -20,11 +21,12 @@ div.marge{
     content: "";
     clear: both;
     display: table;
+    
   }
 
   p.title {
      
-    padding: 35px 0px 20px 0px;
+    padding: 5px;
     font-family: "Neoclassical";
     font-size: 250%;
     font-stretch: expanded;
@@ -35,6 +37,12 @@ div.marge{
     
     
     font-size: 120%;
-    padding: 10px 0px 35px 0px;
+    padding: 5px 0px 10px 0px;
   }
  
+
+div.service{
+    background-color: yellowgreen;
+    text-align: center;
+    color: black;
+}
